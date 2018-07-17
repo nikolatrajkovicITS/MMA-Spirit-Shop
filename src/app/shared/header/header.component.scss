@@ -1,0 +1,35 @@
+$breakpoint-ls: 1200px;
+
+#header .widgets-sidebar {
+  display: flex;
+  flex-wrap: wrap
+}
+
+#header .social-profiles {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em
+}
+
+#header .social-profiles a {
+  display: inline-block;
+  background: #fff;
+  color: #d33;
+  font-size: 18px;
+  overflow: hidden;
+  width: 27px;
+  height: 27px;
+  line-height: 27px;
+  margin: auto 2px;
+  text-align: center;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px
+}
+
+#header .social-profiles i {
+  margin: auto
+}

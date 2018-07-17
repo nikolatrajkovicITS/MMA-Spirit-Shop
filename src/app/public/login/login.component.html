@@ -1,0 +1,48 @@
+<!-- <div class="login-wrapper">
+    <form *ngIf="!isLoggingIn"
+          #loginForm="ngForm"
+          class="loginForm">
+        <div class="login-logo"></div>
+        <div class="login-wrap">
+            <input [(ngModel)]="username"
+                   name="username" id="username"
+                   type="text"
+                   placeholder="Username"
+                   class="login-input"
+                   required>
+            <input [(ngModel)]="password"
+                   name="password" id="password"
+                   type="password"
+                   placeholder="Password"
+                   class="login-input"
+                   required>
+            <button [disabled]="!loginForm.form.valid"
+                    (click)="sendLoginRequest()"
+                    class="btn btn-lg btn-login">
+                SIGN IN
+            </button>
+        </div>
+        <div class="remember-me">
+            <label for="rememberMe" class="remember-me-checkbox-label">
+                <i class="fa fa-check" *ngIf="rememberMe"></i>
+                <input type="checkbox"
+                       class="remember-me-checkbox"
+                       name="rememberMe"
+                       id="rememberMe"
+                       [(ngModel)]="rememberMe">
+            </label>
+            <label class="remember-me-label-text" for="rememberMe">Remember me</label>
+        </div>
+        <div class="nano-sso-button">
+            <button (click)="getSSOUrl()"
+                    type="button">
+                <span>
+                    Login with Office365
+                </span>
+            </button>
+        </div>
+    </form>
+    <nano-loading-indicator *ngIf="isLoggingIn"
+                            class="nano-m-a">
+    </nano-loading-indicator>
+</div> -->
